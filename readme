@@ -7,7 +7,7 @@ Experiment 1 for synthetic data
 3. We have tested 3 sample method: Random sampling, Stratified sampling,Information-driven sampling
    For 4 player, we have shapleyForR.py,shapleyForS.py,shapleyForI.py for Random sampling, Stratified sampling,Information-driven sampling
    For 5 player, we have shapleyForR5.py,shapleyForS5.py,shapleyForI5.py for Random sampling, Stratified sampling,Information-driven sampling
-4. R1,S1,I1 is the experiment result by 4 player,R51,S51,I51 is the experiment result by 4 player
+4. R1,S1,I1 is the experiment result by 4 player,R51,S51,I51 is the experiment result by 5 player
    You can run splotF3.py to get the  Spearman correlation and MSE between appropriate and real shapley value with 3 methods.
    And splotFSM.py to get the  Spearman correlation and MSE between appropriate and real shapley value with each data get by step 3
 
