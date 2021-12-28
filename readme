@@ -1,0 +1,16 @@
+Experiment 1 for synthetic data
+1.generatedata.py and generatedata4.py for generate a synthetic data,the  worth of player are generated from a uniform distribution.
+  generatedata4.py is for 4 players, and generatedata.py is for 5 players
+  You can generate one test for each run, the data will be store in Excel_test.xls, and you should copy them in 16or1.xlsx, test1.xlsx,and 16or2.xlsx,test2.xlsx
+
+2. 16or1.xlsx, test1.xlsx,and 16or2.xlsx,test2.xlsx is the synthetic data generate by step 1
+3. We have tested 3 sample method: Random sampling, Stratified sampling,Information-driven sampling
+   For 4 player, we have shapleyForR.py,shapleyForS.py,shapleyForI.py for Random sampling, Stratified sampling,Information-driven sampling
+   For 5 player, we have shapleyForR5.py,shapleyForS5.py,shapleyForI5.py for Random sampling, Stratified sampling,Information-driven sampling
+4. R1,S1,I1 is the experiment result by 4 player,R51,S51,I51 is the experiment result by 4 player
+   You can run splotF3.py to get the  Spearman correlation and MSE between appropriate and real shapley value with 3 methods.
+   And splotFSM.py to get the  Spearman correlation and MSE between appropriate and real shapley value with each data get by step 3
+
+Experiment 2 for MPE
+5. SampleFormaddpg.py for sampling the coalition
+6. We record all the results from MPE, and caculate the final result by shapleyFMPE.py
